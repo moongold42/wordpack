@@ -32,11 +32,12 @@ type "lua main.lua"
 
 ## HOW TO USE THE PROGRAMS
 
-every program requires **matching video and word-by-word .srt caption files** INSIDE their folder.  
-wordplayer also needs an extra video; the one that will be played when a word is said
+every program requires **matching video and word-by-word .srt caption files with no overlapping words** INSIDE their folder.  
+wordplayer also needs an extra video; the one that will be played when a word is said  
 if you have a video, but no captions, you can follow these 2 approaches:  
 1. manually make the subtitles in a editor, like **[Aegisub](https://aegisub.org/)**
 2. automatically make subtitles using a program like **[Buzz](https://github.com/chidiwilliams/buzz/releases)**, then, for maximum accuracy, fix the mistakes with an editor  
-
+after making/acquiring the captions file, **make sure that the decimal seperator is a dot (.). if it's something else, like a comma (,), replace all of them with a dot in a text editor**
+  
 in wordrestarter and wordlooper, you can test them by **typing abq.mp4, and then abq.srt**  
 in wordplayer, you **use eykiw.mp4, then eykiw.srt, and finally, test.mp4**
