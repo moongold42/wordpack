@@ -5,7 +5,8 @@ there are currently 3 programs:
 1. wordrestarter, which builds a "but every next word restarts" version of your selected video  
 2. wordlooper, which builds a "but every repeated word loops back to its last use" version of your selected video  
 3. wordplayer, which builds a "but every next word plays a video" version of your selected video  
-
+  
+wordplayer currently has a bug where if you don't get two videos with the same audio sample rate, it breaks, so make sure that they're not different
 ## REQUIREMENTS  
 ffmpeg and lua  
 you can find out how to install them by googling something like "how to install lua in windows", if you don't have them  
