@@ -1,0 +1,36 @@
+# wordpack
+a collection of programs that automatically makes word-related long videos  
+
+## REQUIREMENTS  
+ffmpeg and lua  
+you can find out how to install them by googling something like "how to install lua in windows", if you don't have them  
+  
+## HOW TO INSTALL WORDPACK  
+first, click the green code button and then click "download zip"  
+then, extract the zip file  
+optionally, remove the versions that you're not gonna use -- bash if you're using windows, or cmd if you're using linux/macOs 
+
+## HOW TO LAUNCH ANY PROGRAM
+
+### for cmd (windows)  
+  
+open the cmd terminal (try searching console or terminal in the search bar)  
+change the directory to your chosen program, like wordrestarter, using "cd path/to/wordrestarter-cmd" (replace with your actual directory!)  
+type "lua main.lua"  
+  
+### for bash (macOs, linux)  
+  
+open the bash terminal (probably your default terminal)  
+change the directory to your chosen program, like wordrestarter, using "cd path/to/wordrestarter-bash" (replace with your actual directory!)   
+type "lua main.lua"  
+
+## HOW TO USE THE PROGRAMS
+
+every program requires **matching video and word-by-word .srt caption files** INSIDE their folder.  
+wordplayer also needs an extra video; the one that will be played when a word is said
+if you have a video, but no captions, you can follow these 2 approaches:  
+1. manually make the subtitles in a editor, like **[Aegisub](https://aegisub.org/)**
+2. automatically make subtitles using a program like **[Buzz](https://github.com/chidiwilliams/buzz/releases)**, then, for maximum accuracy, fix the mistakes with an editor  
+
+in wordrestarter and wordlooper, you can test them by **typing abq.mp4, and then abq.srt**
+in wordplayer, you **use eykiw.mp4, then eykiw.srt, and finally, test.mp4**
