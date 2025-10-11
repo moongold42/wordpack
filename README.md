@@ -1,5 +1,10 @@
 # wordpack
 a collection of programs that automatically makes word-related long videos  
+  
+there are currently 3 programs:  
+1. wordrestarter, which builds a "but every next word restarts" version of your selected video  
+2. wordlooper, which builds a "but every repeated word loops back to its last use" version of your selected video  
+3. wordplayer, which builds a "but every next word plays a video" version of your selected video  
 
 ## REQUIREMENTS  
 ffmpeg and lua  
@@ -32,5 +37,5 @@ if you have a video, but no captions, you can follow these 2 approaches:
 1. manually make the subtitles in a editor, like **[Aegisub](https://aegisub.org/)**
 2. automatically make subtitles using a program like **[Buzz](https://github.com/chidiwilliams/buzz/releases)**, then, for maximum accuracy, fix the mistakes with an editor  
 
-in wordrestarter and wordlooper, you can test them by **typing abq.mp4, and then abq.srt**
+in wordrestarter and wordlooper, you can test them by **typing abq.mp4, and then abq.srt**  
 in wordplayer, you **use eykiw.mp4, then eykiw.srt, and finally, test.mp4**
