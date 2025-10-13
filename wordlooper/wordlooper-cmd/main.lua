@@ -76,7 +76,7 @@ print("finished")
 Timeidx = 1
 while Timeidx < #Wordstorepeat do
     os.execute(string.format("ffmpeg -i %s -ss %s -to %s -c:v libx264 -crf 20 -preset veryfast tempry/%d.mkv", video, Wordstorepeat[Timeidx], Wordstorepeat[Timeidx+1], Timeidx))
-    os.execute(string.format("echo file tempry\\%d.mkv >> array.txt", Timeidx)))
+    os.execute(string.format("echo file tempry\\%d.mkv >> array.txt", Timeidx))
     Timeidx = Timeidx + 2
 end
 
