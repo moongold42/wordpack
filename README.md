@@ -10,7 +10,7 @@ wordplayer currently has a bug where if you don't get two videos with the same a
 ## REQUIREMENTS  
 ffmpeg and lua  
 the cmd version already has lua, so you don't need to install it yourself. just remember to replace "lua" with "lua.exe" when running one of the programs  
-you can find out how to install them by googling something like "how to install lua in windows", if you don't have them  
+you can find out how to install them by googling something like "how to install ffmpeg in windows", if you don't have them  
   
 ## HOW TO INSTALL WORDPACK  
 first, click the green code button and then click "download zip"  
