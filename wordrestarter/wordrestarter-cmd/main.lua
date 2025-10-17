@@ -47,14 +47,14 @@ Idx = 1
 
 while Idx <= #Words do
     endtime = Words[Idx][4]
-    os.execute(string.format("ffmpeg -i %s -ss 0.0 -to %s -c:v libx264 -crf 20 -preset veryfast tempry\\%d.mkv", video, endtime, Idx))
-    os.execute(string.format("echo file tempry\\%d.mkv >> array.txt", Idx))
+    os.execute(string.format("ffmpeg -i %s -ss 0.0 -to %s -c:v libx264 -crf 20 -preset veryfast tempry/%d.mkv", video, endtime, Idx))
+    os.execute(string.format("echo file tempry/%d.mkv >> array.txt", Idx))
     Idx = Idx + 1
 end
 
 Idx = Idx + 1
-os.execute(string.format("ffmpeg -i %s tempry\\%d.mkv", video, Idx))
-os.execute(string.format("echo file tempry\\%d.mkv >> array.txt", Idx))
+os.execute(string.format("ffmpeg -i %s tempry/%d.mkv", video, Idx))
+os.execute(string.format("echo file tempry/%d.mkv >> array.txt", Idx))
 os.execute("ffmpeg -f concat -i array.txt -c:v copy -c:a copy output.mkv")
 os.execute("del /q tempry\\*")
 os.execute("type nul > array.txt")
