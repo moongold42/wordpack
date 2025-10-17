@@ -9,6 +9,7 @@ there are currently 3 programs:
 wordplayer currently has a bug where if you don't get two videos with the same audio sample rate, it breaks, so make sure that they're not different
 ## REQUIREMENTS  
 ffmpeg and lua  
+the cmd version already has lua, so you don't need to install it yourself. just remember to replace "lua" with "lua.exe" when running one of the programs  
 you can find out how to install them by googling something like "how to install lua in windows", if you don't have them  
   
 ## HOW TO INSTALL WORDPACK  
