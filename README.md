@@ -23,7 +23,7 @@ optionally, remove the versions that you're not gonna use -- bash if you're usin
   
 open the cmd terminal (try searching console or terminal in the search bar)  
 change the directory to your chosen program, like wordrestarter, using "cd path/to/wordrestarter-cmd" (replace with your actual directory!)  
-type "lua main.lua"  
+type "lua main.lua" or "lua.exe main.lua"  
   
 ### for bash (macOs, linux)  
   
