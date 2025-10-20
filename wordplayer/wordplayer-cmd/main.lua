@@ -49,7 +49,7 @@ while Idx <= #Words do
     currenttime = Words[Idx][4]
     os.execute(string.format("ffmpeg -i %s -ss %s -to %s -c:v libx264 -crf 20 -preset veryfast tempry/%d.mkv", video, pasttime, currenttime, Idx))
     os.execute(string.format("echo file tempry/%d.mkv >> array.txt", Idx))
-    os.execute("echo \"file tempry/vid2play.mkv\" >> array.txt")
+    os.execute("echo file tempry/vid2play.mkv >> array.txt")
     pasttime = currenttime
     Idx = Idx + 1
 end
