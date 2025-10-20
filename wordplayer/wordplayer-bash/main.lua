@@ -33,6 +33,9 @@ for matrix in read:gmatch("%S+") do
 local a = math.floor(1 + (Idx / 5))
 if b == 1 then
     Words[a] = {}
+else if b == 2 or b == 4 then
+    matrix = string.gsub(matrix, ",", ".")
+end
 end
 Words[a][b] = matrix
 Idx = Idx + 1
