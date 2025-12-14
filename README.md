@@ -41,5 +41,5 @@ if you have a video, but no captions, you can follow these 2 approaches:
 1. manually make the subtitles in a editor, like **[Aegisub](https://aegisub.org/)**
 2. automatically make subtitles using a program like **[Buzz](https://github.com/chidiwilliams/buzz/releases)**, then, for maximum accuracy, fix the mistakes with an editor  
   
-in wordrestarter and wordlooper, you can test them by **typing abq.mp4, and then abq.srt**  
-in wordplayer, you **use eykiw.mp4, then eykiw.srt, and finally, test.mp4**
+in wordplayer, you **type eykiw.mp4, then eykiw.srt, and finally, test.mp4**  
+everywhere else, you can test them by **typing abq.mp4, and then abq.srt**  
