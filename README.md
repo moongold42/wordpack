@@ -39,7 +39,7 @@ every program requires **matching video and word-by-word .srt caption files with
 wordplayer also needs an extra video; the one that will be played when a word is said  
 if you have a video, but no captions, you can follow these 2 approaches:  
 1. manually make the subtitles in a editor, like **[Aegisub](https://aegisub.org/)**
-2. automatically make subtitles using a program like **[Buzz](https://github.com/chidiwilliams/buzz/releases)**, then, for maximum accuracy, fix the mistakes with an editor  
+2. automatically make subtitles using AI, then, for maximum accuracy, fix the mistakes with an editor. i do advise you to not do this, because some people dislike partially AI-generated content.  
   
 in wordplayer, you **type eykiw.mp4, then eykiw.srt, and finally, test.mp4**  
 everywhere else, you can test them by **typing abq.mp4, and then abq.srt**  
