@@ -7,7 +7,7 @@ there are currently 6 programs:
 3. wordplayer, which builds a "but every next word plays a video" version of your selected video
 4. firstword, which builds a "but every repeated word loops to its first use" video
 5. lastwordrestarts, which builds a "but every word goes to its last use and restarts" video
-6. lengthrepeater, which builds a "but every word repeats by its character length"
+6. lengthrepeater, which builds a "but every word repeats by its character length" video (supports exponentiation)
   
 wordplayer currently has a bug where if you don't get two videos with the same audio sample rate, it breaks, so make sure that they're not different
 ## REQUIREMENTS  
