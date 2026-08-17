@@ -43,6 +43,6 @@ if you have a video, but no captions, you can follow these 2 approaches:
 2. automatically make subtitles using AI, then, for maximum accuracy, fix the mistakes with an editor. i do advise you to not do this, because some people dislike partially AI-generated content.  
 
 ### testing the programs
-in lengthrepeater, you test by **typing abq.mp4, then abq.srt, and preferably, set the exponent to 2**
+in lengthrepeater, you test by **typing abq.mp4, then abq.srt, and preferably, set the exponent to 2**  
 in wordplayer, you test by **typing eykiw.mp4, then eykiw.srt, and finally, test.mp4**  
 everywhere else, you can test them just by **typing abq.mp4, and then abq.srt**  
